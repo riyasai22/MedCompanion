@@ -1,0 +1,36 @@
+:root {
+  --button: #006eff;
+  --white: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  height: fit-content;
+}
+.prescription-container {
+  position: relative;
+  margin-top: 60px;
+}
+.btn {
+  padding: 8px 20px;
+  background-color: var(--button);
+  width: fit-content;
+  color: var(--white);
+  font-weight: 600;
+  cursor: pointer;
+}
+.show-btn {
+  position: absolute;
+  right: 200px;
+  top: 20px;
+}
+.prescription-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 100px;
+  left: 240px;
+}

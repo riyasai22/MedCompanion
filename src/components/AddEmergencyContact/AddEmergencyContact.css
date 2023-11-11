@@ -1,0 +1,47 @@
+.connection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: calc(100vh - 100px);
+  position: absolute;
+  left: 240px;
+  top: 80px;
+  width: calc(100vw - 260px);
+  padding-right: 20px;
+  z-index: -1000;
+}
+.add_emer {
+  width: 60%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 2px 0px 6px 2px rgba(0, 0, 0, 0.25);
+}
+.add-button {
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  background-color: rgb(3, 115, 227);
+}
+
+.contact-list-main {
+  width: 30%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 2px 0px 6px 2px rgba(0, 0, 0, 0.25);
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-item {
+  background-color: #c1f7fe;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact-info {
+  margin: 5px 0;
+}

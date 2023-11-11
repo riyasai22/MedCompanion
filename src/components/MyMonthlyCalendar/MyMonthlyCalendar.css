@@ -1,0 +1,8 @@
+.calendar {
+  position: absolute;
+  left: 220px;
+  right: 0px;
+  width: calc(100vw - 240px);
+  color: #333;
+  margin-top: 60px;
+}
